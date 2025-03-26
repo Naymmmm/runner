@@ -59,7 +59,7 @@ function Runner.new(Modules: Instance, Params: RunnerParams)
 	assert(Params, "Argument #2 cannot be nil")
 	
 	--- People are stupid.
-	if Params.DynamicLoad == nil or Params.DynamicContainer == nil then
+	if Params.DynamicLoad == nil or typeof(Params.DynamicContainer) ~= "Instance" then
 		error("Parameters 'DynamicLoad' and 'DynamicContainer' are required.")
 	end
 	
