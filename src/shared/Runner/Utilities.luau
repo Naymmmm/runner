@@ -17,7 +17,7 @@ Utilities.__index = Utilities
     @return boolean -- Is it empty?
 ]=]
 function Utilities.IsEmpty(tbl): boolean
-	--- These helper functions are stupid but I don't want to clutter my code.
+	-- These helper functions are stupid but I don't want to clutter my code.
 	
 	for _, _ in pairs(tbl) do
 		return false
@@ -35,7 +35,7 @@ end
     @return boolean -- Does arg exist in tbl?
 ]=]
 function Utilities.InitExists(tbl, arg): boolean
-	--- More than stupid.
+	-- More than stupid.
 	
 	if tbl[arg] then
 		return true

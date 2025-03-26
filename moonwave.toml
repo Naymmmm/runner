@@ -1,0 +1,28 @@
+[docusaurus]
+onBrokenLinks = "throw"
+onBrokenMarkdownLinks = "warn"
+tagline = "A simple module loader"
+organizationName = "Naymmmm"
+projectName = "Runner"
+url = "https://docs.naymmm.lol"
+baseUrl = "/Runner"
+
+[footer]
+style = "dark"
+copyright = "Copyright © 2025 darwinkernelpanic. Built with Moonwave and Docusaurus"
+
+[home]
+enabled = true
+includeReadme = false
+
+[[home.features]]
+title = "Simple and Strict"
+description = "Runner is simple, strictly typed, and avoids the use of any or nil types for clarity and reliability."
+
+[[home.features]]
+title = "Clearly Typed"
+description = "Everything in Runner is clearly documented, utilizing types. I have no idea why this is here."
+
+[[home.features]]
+title = "It just works"
+description = "It just works™. It's just a simple module loader, that works. No bloat, just a simple replacement for Knit I guess."
