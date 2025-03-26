@@ -29,7 +29,7 @@ export type RunnerParams = {
 
 local Runner = {}
 Runner.__index = Runner
-Runner.Version = "v0.1"
+Runner.Version = "v0.3"
 
 local Utilities = require(script:WaitForChild("Utilities"))
 

@@ -5,7 +5,7 @@ tagline = "A simple module loader"
 organizationName = "Naymmmm"
 projectName = "Runner"
 url = "https://docs.naymmm.lol"
-baseUrl = "/Runner"
+baseUrl = "/"
 
 [footer]
 style = "dark"
