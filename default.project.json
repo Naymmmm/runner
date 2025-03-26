@@ -1,0 +1,12 @@
+{
+  "name": "runner",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    }
+  }
+}
